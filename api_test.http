@@ -1,0 +1,9 @@
+### POST request to /post_control
+POST http://127.0.0.1:5000/post_control
+Content-Type: application/json
+
+{
+    "post": "Merhaba",
+    "communityName": "Paylaşım Küresi Resmi Topluluğu",
+    "communityDescription": "Paylaşım Küresi Resmi Topluluğu"
+}
